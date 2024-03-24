@@ -18,7 +18,7 @@ const handleJobsFilter = filter =>{
         const remoteJobs = appliedJobs.filter(job => job.remote_or_onsite === 'Remote')
         setDisplayJobs(remoteJobs);
     }
-    else if (filter === 'Onsite'){
+    else if (filter === 'onsite'){
         const OnsiteJobs = appliedJobs.filter(job => job.remote_or_onsite === 'Onsite');
         setDisplayJobs(OnsiteJobs);
     }
